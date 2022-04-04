@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "NodeJS-Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrique307/NodeJS-Alura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henrique307/NodeJS-Alura/issues"
+  },
+  "homepage": "https://github.com/Henrique307/NodeJS-Alura#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
