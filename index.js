@@ -29,7 +29,6 @@ function pegaArquivo(caminho) {
         .catch(err => trataErro(err))
 }
 
-git 
 function pegaArquivo(caminho) {
     fs.readFile(caminho, 'utf-8', (err, texto) => {
         if(err) {
