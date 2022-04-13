@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "NodeJS-Alura",
   "main": "index.js",
-"exports": [
-  "./cli.js",
-  "./http-validation.js"
-],
+  "exports": [
+    "./cli.js",
+    "./http-validation.js"
+  ],
   "readme": "README.md",
   "scripts": {
     "start": "node ./index.js ./arquivos/texto1.md validar",
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/Henrique307/NodeJS-Alura#readme",
   "dependencies": {
     "chalk": "^5.0.1",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   }
 }
