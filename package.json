@@ -3,15 +3,11 @@
   "type": "module",
   "version": "1.0.0",
   "description": "NodeJS-Alura",
-  "main": "index.js",
-  "exports": [
-    "./cli.js",
-    "./http-validation.js"
-  ],
+  "main": "./index.js",
   "readme": "README.md",
   "scripts": {
     "start": "node ./index.js ./arquivos/texto1.md validar",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./index.test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +23,8 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
