@@ -1,5 +1,4 @@
-//const chalk = require('chalk');
-import chalk from "chalk";
+//import chalk from "chalk";
 import fs from "fs"
 
 // REGEX https://regex101.com
@@ -20,9 +19,9 @@ function extraiLinks(texto) {
 function trataErro(err) {
   switch (err.code) {
     case "ENOENT":
-      throw new Error(chalk.red(err.code, "Caminho especificado ta errado"));
+      throw new Error(err.code, "Caminho especificado ta errado");
     default:
-      throw new Error(chalk.red(err.code, "erro não especificado"));
+      throw new Error(err.code, "erro não especificado");
   }
 }
 

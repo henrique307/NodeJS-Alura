@@ -7,7 +7,7 @@
   "readme": "README.md",
   "scripts": {
     "start": "node ./index.js ./arquivos/texto1.md validar",
-    "test": "jest ./index.test.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test"
   },
   "repository": {
     "type": "git",
